@@ -13,7 +13,7 @@ app.post('/home', (req,res) => {
         response
     })
     
-    console.log(response.success)
+    console.log(response)
     
 })
 
