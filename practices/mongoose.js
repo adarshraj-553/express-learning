@@ -5,7 +5,7 @@ const app = express();
 app.use(express.json());
 
 mongoose.connect(
-  "mongodb+srv://adarshkeshri0716_dbuser:mongo_adarsh@cluster0.w14huyy.mongodb.net/"
+  "mongodb+srv://<username>:<password>@cluster0.w14huyy.mongodb.net/"
 );
 const Player = mongoose.model("Player", {
   name: String,
